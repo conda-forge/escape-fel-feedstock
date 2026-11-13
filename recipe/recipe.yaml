@@ -2,15 +2,15 @@ schema_version: 1
 
 context:
   name: escape-fel
-  version: "0.2.19"
+  version: "0.2.20"
 
 package:
   name: ${{ name | lower }}
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace("-", "_") }}-${{ version }}.tar.gz
-  sha256: d3b0da431b659f181f0469c5ae31c9d2142e950a376dd31dea7a9b2baeb4813b
+  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
+  sha256: d7246a07784f3971c0900ae1a034e6897c7da509f919091197b12f315733da1c
 
 build:
   number: 0
