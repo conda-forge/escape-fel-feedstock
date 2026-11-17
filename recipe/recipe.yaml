@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: escape-fel
-  version: "0.2.20"
+  version: "0.2.21"
 
 package:
   name: ${{ name | lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: d7246a07784f3971c0900ae1a034e6897c7da509f919091197b12f315733da1c
+  sha256: d66f05a57c8cf44fd8306cf5b09f9a868b47a43dd246c64ba64073a616131f8a
 
 build:
   number: 0
